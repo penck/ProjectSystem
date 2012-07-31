@@ -16,6 +16,29 @@ Partial Class ManageSys_Check_Sbxmgl
                 BindDataToSubmit()
                 BindDataToRecommend()
                 BindDataToPrepare()
+
+                Dim oRecommendUnit As New RecommendUnit
+                Dim datasource As List(Of ListItem) = oRecommendUnit.GetToLOLIT()
+                ddlRecUnit.DataSource = datasource
+                ddlRecUnit.DataTextField = "Text"
+                ddlRecUnit.DataValueField = "Value"
+                ddlRecUnit.DataBind()
+                ddlRecUnit.Items.Insert(0, New ListItem("", ""))
+                ddlRecUnit.Items(0).Selected = True
+
+                ddlRecUnit2.DataSource = datasource
+                ddlRecUnit2.DataTextField = "Text"
+                ddlRecUnit2.DataValueField = "Value"
+                ddlRecUnit2.DataBind()
+                ddlRecUnit2.Items.Insert(0, New ListItem("", ""))
+                ddlRecUnit2.Items(0).Selected = True
+
+                ddlRecUnit3.DataSource = datasource
+                ddlRecUnit3.DataTextField = "Text"
+                ddlRecUnit3.DataValueField = "Value"
+                ddlRecUnit3.DataBind()
+                ddlRecUnit3.Items.Insert(0, New ListItem("", ""))
+                ddlRecUnit3.Items(0).Selected = True
             End If
         Catch ex As Exception
 
@@ -117,7 +140,14 @@ Partial Class ManageSys_Check_Sbxmgl
         If txtPrBaHostUnit.Text.Trim = "" Then
             nCondition = ""
         Else
-            nCondition = "PrBaHostUnit like '%" & txtPrBaHostUnit.Text.Trim & "%'"
+            nCondition = "PrBaHostUnit like '%" & txtPrBaHostUnit.Text.Trim & "%' "
+        End If
+
+        If ddlRecUnit.SelectedValue <> "" Then
+            If nCondition.Length > 0 Then
+                nCondition += " and "
+            End If
+            nCondition += " ReUnId = " & ddlRecUnit.SelectedValue
         End If
         BindDataToSubmit(nCondition)
     End Sub
@@ -128,6 +158,13 @@ Partial Class ManageSys_Check_Sbxmgl
             nCondition = ""
         Else
             nCondition = "PrBaHostUnit like '%" & txtPrBaHostUnit2.Text.Trim & "%'"
+        End If
+
+        If ddlRecUnit2.SelectedValue <> "" Then
+            If nCondition.Length > 0 Then
+                nCondition += " and "
+            End If
+            nCondition += " ReUnId = " & ddlRecUnit2.SelectedValue
         End If
         BindDataToRecommend(nCondition)
     End Sub
@@ -181,6 +218,13 @@ Partial Class ManageSys_Check_Sbxmgl
             nCondition = ""
         Else
             nCondition = "PrBaHostUnit like '%" & txtPrBaHostUnit3.Text.Trim & "%'"
+        End If
+         
+        If ddlRecUnit3.SelectedValue <> "" Then
+            If nCondition.Length > 0 Then
+                nCondition += " and "
+            End If
+            nCondition += " ReUnId = " & ddlRecUnit3.SelectedValue
         End If
         BindDataToPrepare(nCondition)
     End Sub

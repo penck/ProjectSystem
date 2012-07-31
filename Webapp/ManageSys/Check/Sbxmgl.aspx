@@ -70,8 +70,13 @@
         <div style="line-height: 24px;">
             <table id="zb" width="100%" border="0" cellspacing="1" cellpadding="6" bgcolor="#D2E2F0">
 	            <tr>
-		        <td >项目单位：
-                    <asp:TextBox ID="txtPrBaHostUnit" runat="server" Width ="200px"></asp:TextBox>
+		        <td style="width:260px">项目单位：
+                    <asp:TextBox ID="txtPrBaHostUnit" runat="server" Width ="150px"></asp:TextBox>
+                </td>
+		        <td style="width:260px">推荐单位：
+                    <asp:DropDownList ID="ddlRecUnit" runat="server" Width="150px"> </asp:DropDownList>
+                </td>
+                <td> 
                     <asp:Button ID="btnSearch" runat="server" Text="查询" Width ="60px" />
                 </td>
 	            </tr>
@@ -127,8 +132,13 @@
         <div style="line-height: 24px;">
             <table id="Table2" width="100%" border="0" cellspacing="1" cellpadding="6" bgcolor="#D2E2F0">
 	            <tr>
-		        <td >项目单位：
-                    <asp:TextBox ID="txtPrBaHostUnit3" runat="server" Width ="200px"></asp:TextBox>
+		        <td  style="width:260px">项目单位：
+                    <asp:TextBox ID="txtPrBaHostUnit3" runat="server" Width ="150px"></asp:TextBox> 
+                </td> 
+		        <td style="width:260px">推荐单位：
+                    <asp:DropDownList ID="ddlRecUnit3" runat="server" Width="150px"> </asp:DropDownList>
+                </td>
+                <td> 
                     <asp:Button ID="btnSearch3" runat="server" Text="查询" Width ="60px" />
                 </td>
 	            </tr>
@@ -192,8 +202,13 @@
         <div style="line-height: 24px;">
                 <table id="Table1" width="100%" border="0" cellspacing="1" cellpadding="6" bgcolor="#D2E2F0">
 	                <tr>
-		            <td >项目单位：
-                        <asp:TextBox ID="txtPrBaHostUnit2" runat="server" Width ="200px"></asp:TextBox>
+		            <td  style="width:260px">项目单位：
+                        <asp:TextBox ID="txtPrBaHostUnit2" runat="server" Width ="150px"></asp:TextBox>
+                    </td> 
+		            <td style="width:260px">推荐单位：
+                        <asp:DropDownList ID="ddlRecUnit2" runat="server" Width="150px"> </asp:DropDownList>
+                    </td>
+                    <td> 
                         <asp:Button ID="btnSearch2" runat="server" Text="查询" Width ="60px" />
                     </td>
 	                </tr>

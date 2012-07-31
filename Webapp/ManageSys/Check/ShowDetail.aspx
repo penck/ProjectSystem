@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="../../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../../css/TryStyles.css"/>
     <link rel="stylesheet" type="text/css" href="../../css/main.css"/>
+    <script type="text/javascript" src="../../js/jquery.js"></script>
     <style type="text/css">
     A:link{text-decoration:none} 
     A:visited{text-decoration:none} 
@@ -44,7 +45,7 @@
        font-size: medium;
        font-weight: bold;
     }       
-    </style>
+    </style> 
 </head>
 <body>
     <form id="form1" runat="server">
@@ -87,12 +88,18 @@
               <td id="Td7" height="22">&nbsp;</td>
               <td id="Td8" height="22" align="left"><a href="ShowDetail_PlanBook.aspx?id=<%=Me.gPrId%>" target ="sysMain">项目计划任务书</a></td>
             </tr>
+            <tr>
+              <td id="Td9" height="22">&nbsp;</td>
+              <td id="Td10" height="22" align="left">
+                  <a href="ShowDetail_Total.aspx?id=<%=Me.gPrId%>" target =""  
+                      style=" border-style: solid; border-width: 1px; font-weight: bold; color: #0000CC;">打印项目信息</a></td>
+            </tr>
           </table></td>
         <td width="100%" valign="top">
         <table  width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr><td>
         <div>
-            <iframe frameborder="0" id="sysMain" name="sysMain" scrolling="yes" src="ShowDetail_Basic.aspx?id=<%=Me.gPrId%>" style="height:100%;visibility:inherit; width:100%;z-index:1; height :1000px;"></iframe> 
+            <iframe   frameborder="0" id="sysMain" name="sysMain" scrolling="yes" src="ShowDetail_Basic.aspx?id=<%=Me.gPrId%>" style="height:100%;visibility:inherit; width:100%;z-index:1; height:1040px"></iframe> 
         </div>
          </td></tr>
         </table>

@@ -102,7 +102,8 @@
             开户行帐号：            </td>
         <td style="background-color: white;">
         <asp:Label ID="lblPrExKhhzh" runat="server" Text=""></asp:Label>
-        </td></tr>
+        </td>
+        </tr>
         </table>
     </form>
 </body>
