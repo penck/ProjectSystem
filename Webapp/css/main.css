@@ -1,0 +1,36 @@
+body{ margin:0px;}
+td {  font-size: 12px; line-height: 22px; text-decoration: none; color: #242424}
+
+a {  color: #585858; text-decoration: none}
+a:hover {  color: #0E74C7; text-decoration: underline}
+
+.input {  border: 1px #96BFDA solid; height: 22px; clip:  rect(   ); background-color: #FFFFFF}
+
+.input2 {  border: 1px #96BFDA solid; height: 24px; clip:  rect(   ); background-color: #F2F9FE}
+
+.blue14 a {  color: #046FC1; text-decoration: none; font-size: 14px}
+.blue14 a:hover {  color: #FF6600; text-decoration: underline}
+
+.blue a {  color: #0C6CBB; text-decoration: none}
+.blue a:hover {  color: #FF7200; text-decoration: underline}
+
+.orange a {  color: #FF7400; text-decoration: none; font-weight: bold; line-height: 120%}
+.orange a:hover {  color: #006699; text-decoration: underline}
+
+.red a {  color: #B80000; text-decoration: underline}
+.red a:hover {  color: #B80000; text-decoration: none}
+
+.links_14 a {  color: #333333; text-decoration: none; font-size: 14px; line-height: 120%}
+.links_14 a:link {  color: #333333; text-decoration: none; font-size: 14px; line-height: 120%}
+.links_14 a:visited {color:Olive}  /* 已访问的链接 */
+.links_14 a:hover {  color: #0C6CBB; text-decoration: underline}
+.links_14 a:active { color:Blue; }
+
+.main_14 {  font-size: 14px; line-height: 26px; text-decoration: none; color: #333333}
+
+.main_14_b {  font-size: 14px; line-height: 22px; text-decoration: none; color: #333333}
+
+.dh a {  color: #FFFFFF; text-decoration: none; font-size: 14px; line-height: 135%; font-weight: bold}
+.dh a:hover {  color: #FFCC00; text-decoration: underline}
+
+.title {  font-size: 20px; line-height: 120%; text-decoration: none; font-family: "微软雅黑", "黑体"; color: #046FC1}

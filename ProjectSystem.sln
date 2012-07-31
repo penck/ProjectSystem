@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{57E7ED69-1AFE-4247-9060-F52BC258CF90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{69AD0D93-D3DC-4E7B-ABCC-92766631FA7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{9994EA65-43AA-44E3-A323-B4135161D126}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DBOpProvider", "DBOpProvider\DBOpProvider.vbproj", "{BC578A42-830F-4714-8E9A-8494B7BC4A73}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Webapp", "Webapp\", "{1A8933A2-A529-4C33-94C7-3362264DA0A6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{52972EB7-8E0A-467A-B397-E74261019F6D}|ProjectData.dll;{BC578A42-830F-4714-8E9A-8494B7BC4A73}|DBOpProvider.dll;{498D0909-E945-405B-BD5D-5A18503EACFE}|SysOpProvider.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Webapp"
+		Debug.AspNetCompiler.PhysicalPath = "Webapp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Webapp\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Webapp"
+		Release.AspNetCompiler.PhysicalPath = "Webapp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Webapp\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "18597"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SysOpProvider", "SysOpProvider\SysOpProvider.vbproj", "{498D0909-E945-405B-BD5D-5A18503EACFE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProjectData", "ProjectData\ProjectData.vbproj", "{52972EB7-8E0A-467A-B397-E74261019F6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC578A42-830F-4714-8E9A-8494B7BC4A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC578A42-830F-4714-8E9A-8494B7BC4A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC578A42-830F-4714-8E9A-8494B7BC4A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC578A42-830F-4714-8E9A-8494B7BC4A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8933A2-A529-4C33-94C7-3362264DA0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8933A2-A529-4C33-94C7-3362264DA0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8933A2-A529-4C33-94C7-3362264DA0A6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8933A2-A529-4C33-94C7-3362264DA0A6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{498D0909-E945-405B-BD5D-5A18503EACFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498D0909-E945-405B-BD5D-5A18503EACFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498D0909-E945-405B-BD5D-5A18503EACFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498D0909-E945-405B-BD5D-5A18503EACFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52972EB7-8E0A-467A-B397-E74261019F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52972EB7-8E0A-467A-B397-E74261019F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52972EB7-8E0A-467A-B397-E74261019F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52972EB7-8E0A-467A-B397-E74261019F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A8933A2-A529-4C33-94C7-3362264DA0A6} = {57E7ED69-1AFE-4247-9060-F52BC258CF90}
+		{498D0909-E945-405B-BD5D-5A18503EACFE} = {69AD0D93-D3DC-4E7B-ABCC-92766631FA7D}
+		{52972EB7-8E0A-467A-B397-E74261019F6D} = {69AD0D93-D3DC-4E7B-ABCC-92766631FA7D}
+		{BC578A42-830F-4714-8E9A-8494B7BC4A73} = {9994EA65-43AA-44E3-A323-B4135161D126}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,177 @@
+﻿<%@ Master Language="VB" CodeFile="XmsbPage.master.vb" Inherits="ManageSys_ApplyUser_XmsbPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link media="all" href="../../../../css/main.css" type="text/css" rel="stylesheet"/>
+    <title>科技攻关项目申报</title>
+    <script type="text/javascript" src="../../../js/flash.js"></script>
+    <script type ="text/javascript" src ="../../../js/My97DatePicker/WdatePicker.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body bgcolor="#FFFFFF" style="background :url(../../../images/applyuser/bg.jpg); margin-left: 0px;margin-bottom: 0px; margin-right: 0px; margin-top: 0px; font-size :12px;">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <table border="0" cellpadding="0" cellspacing="0" width="1004" align="center">
+        <tbody><tr>
+            <td>
+                <img alt ="" src="../../../images/applyuser/top1.jpg" height="126" width="1004"/>
+            </td>
+        </tr></tbody>
+    </table>
+    
+    <asp:UpdatePanel  ID="upPage"  runat="server" >
+    <ContentTemplate>
+    <table border="0" cellpadding="0" cellspacing="0" width="1004" align="center">
+        <tbody>
+        <tr>
+            <td style="  background :url(../../../images/applyuser/left_bg12.gif);" valign="top" width="264">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                        <td style =" background :url(../../../images/applyuser/left01_21.jpg);" height="88" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" width="71%" align="center">
+                                <tbody><tr>
+                                    <td height="58">&nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        申报书当前状态：<font color="red" ><asp:Label ID="lblPrStatus" runat="server" Text=""></asp:Label></font>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div align="right">
+                                <img src="../../../images/applyuser/left03.gif" alt="" height="14" width="258"/></div>
+                        </td>
+                    </tr>
+                </tbody></table>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                        <td valign="top" width="16">
+                        </td>
+                        <td style="background: url(&quot;../../../images/applyuser/left_bg2_2.gif&quot;);" valign="top">
+                            <table class="blue" border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+                                <tbody><tr>
+                                    <td onmouseover="this.style.backgroundColor = '#FFFFFF'" onmouseout="this.style.backgroundColor = ''" height="28">
+                                        <img src="../../../images/applyuser/list_a03.gif" alt="" height="22" width="20"/>&nbsp;
+                                        <asp:LinkButton ID="lbtnBasic" runat="server">申报基本信息表</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="" onmouseover="this.style.backgroundColor = '#FFFFFF'" onmouseout="this.style.backgroundColor = ''" height="28">
+                                        <img src="../../../images/applyuser/list_a03.gif" alt="" height="22" width="20"/>&nbsp;
+                                        <asp:LinkButton ID="lbtnExpect" runat="server">预期内容和帐号信息</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td onmouseover="this.style.backgroundColor = '#FFFFFF'" onmouseout="this.style.backgroundColor = ''" height="28">
+                                        <img src="../../../images/applyuser/list_a01.gif" alt="" height="22" width="20"/>&nbsp;
+                                        <b><asp:LinkButton ID="lbtnApplyBook" runat="server">上传项目申报书</asp:LinkButton></b>
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td onmouseover="this.style.backgroundColor = '#FFFFFF'" onmouseout="this.style.backgroundColor = ''" height="28">
+                                        <img src="../../../images/applyuser/list_a01.gif" alt="" height="22" width="20"/>&nbsp;
+                                        <b><asp:LinkButton ID="lbtnPlanBook" runat="server">上传项目计划任务书（预填）</asp:LinkButton></b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td onmouseover="this.style.backgroundColor = '#FFFFFF'" onmouseout="this.style.backgroundColor = ''" height="28">
+                                        <b><a href="../../../uploadfiles/项目申请书.doc" style="color: red;" target="_blank">科技攻关项目申报书下载</a></b>
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td onmouseover="this.style.backgroundColor = '#FFFFFF'" onmouseout="this.style.backgroundColor = ''" height="28">
+                                        <b><a href="../../../uploadfiles/项目任务书.doc" style="color: red;" target="_blank">科技攻关项目计划任务书下载</a></b>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                </tbody></table>
+                <table border="0" cellpadding="0" cellspacing="0" width="211" align="center">
+                    <tbody><tr>
+                        <td height="5" align="center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style=" font-size :15px;">
+                            <font color="056CB5" ><b>注意事项：</b></font><br/>
+                            第一步：申报用户填写申报基本信息表/预期内容和项目信息，然后提交
+                            (无需上传申报书和项目申请书)<br />
+                            第二步：推荐单位预推荐<br />
+                            第三步：审核单位预审核<br />
+                            第四步：申报用户上传申报书和项目申请书<br />
+                            第五步：推荐单位正式推荐<br />
+                            第六步：审核单位初审/立项
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="5" align="center">
+                        </td>
+                    </tr>
+                    <tr >
+	                    <td style="background: url(../../../images/applyuser/left04.gif)" height="56">
+                            <table width="85%" border="0" cellspacing="0" cellpadding="0" align="center" >
+                                <tr>
+                                    <td align="center">
+                                        <asp:Button ID="btnSubmit" runat="server" Text="" Width ="81px" Height ="27px" style="border-width: 0px; background :url(../../../images/applyuser/button_submit.gif);" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                </tbody></table>
+            </td>
+            <td style="background-color: White;" valign="top">
+                <div style="width: 740px; height: 100%">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <br/>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="264">
+                <img src="../../../images/applyuser/left02.gif" alt="" height="27" width="264"/>
+            </td>
+            <td valign="top">
+                <img src="../../../images/applyuser/main04.gif" alt="" height="27" width="740"/>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+    </ContentTemplate>
+    </asp:UpdatePanel>
+    <table border="0" cellpadding="0" cellspacing="0" width="1004" align="center">
+        <tbody><tr>
+            <td height="35">
+                <div align="center">
+                    黄山市科技计划项目管理系统-2012版 <font color="056CB5">黄山市科技局 版权所有</font>
+                </div>
+            </td>
+        </tr>
+    </tbody></table>
+    
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody><tr>
+            <td bgcolor="AEDDFF" height="2">
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="056CB5" height="30">&nbsp;
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+</body>
+</html>

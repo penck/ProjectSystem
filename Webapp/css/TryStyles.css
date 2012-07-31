@@ -1,0 +1,369 @@
+body {
+	background-position: center 50%; margin: 0px; border: 0px currentColor; font-family: ????,Arial; scrollbar-face-color: rgb(247, 246, 246); scrollbar-shadow-color: rgb(79, 79, 79); scrollbar-highlight-color: rgb(247, 246, 246); scrollbar-arrow-color: rgb(79, 79, 79); scrollbar-track-color: rgb(255, 255, 255); background-image: url("../WebImages/dock.jpg"); background-repeat: repeat-y; background-color: white;
+}
+.tbshowborder {
+	padding: 2px; border: 1px solid rgb(211, 211, 211);
+}
+.STYLE3 {
+	color: rgb(255, 255, 255);
+}
+.td_border {
+	padding: 4px; border: 1px solid rgb(198, 198, 198); background-color: rgb(235, 235, 235);
+}
+.STYLE4 {
+	color: rgb(255, 247, 1); font-weight: bold;
+}
+.STYLE5 {
+	color: rgb(46, 60, 74);
+}
+a:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:visited {
+	color: rgb(88, 88, 88); text-decoration: none;
+}
+a:hover {
+	color: red; text-decoration: none;
+}
+a.highlight:link {
+	color: red; text-decoration: none;
+}
+a.highlight:visited {
+	color: red; text-decoration: none;
+}
+a.highlight:hover {
+	color: red; text-decoration: underline;
+}
+a.thisclass:link {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+a.thisclass:visited {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+a.thisclass:hover {
+	color: rgb(102, 102, 102); font-weight: bold;
+}
+a.zcfg:link {
+	color: rgb(52, 52, 52); letter-spacing: 3px; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+a.zcfg:visited {
+	color: rgb(52, 52, 52); letter-spacing: 3px; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+a.zcfg:hover {
+	color: rgb(217, 113, 28); letter-spacing: 3px; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+a.menu:link {
+	color: rgb(255, 255, 255); font-size: 12px; font-weight: bolder; text-decoration: none;
+}
+a.menu:visited {
+	color: rgb(255, 255, 255); font-size: 12px; font-weight: bolder; text-decoration: none;
+}
+a.menu:hover {
+	color: rgb(254, 232, 51); font-size: 12px; font-weight: bolder; text-decoration: none;
+}
+.PicListPic {
+	border: 2px solid rgb(204, 204, 204);
+}
+.headtitle {
+	font-family: ????; font-size: 23px;
+}
+.headcontent {
+	font-size: 14px;
+}
+.v {
+	height: 23px; padding-top: 2px; background-image: url("../WebImages/bb1.gif");
+}
+.t {
+	height: 23px; padding-top: 2px; background-image: url("../WebImages/bb2.gif");
+}
+.spantitle {
+	color: rgb(255, 255, 255); letter-spacing: 3px; padding-top: 5px; padding-left: 8px; font-size: 14px; font-weight: bolder;
+}
+.menu0 {
+	height: 31px; padding-top: 5px; background-image: url("../WebImages/menu0.jpg");
+}
+.menu1 {
+	height: 31px; padding-top: 5px; background-image: url("../WebImages/menu1.jpg");
+}
+td {
+	color: rgb(0, 0, 0); font-size: 9pt;
+}
+.Select {
+	color: rgb(0, 0, 0); font-size: 9pt;
+}
+table {
+	border-collapse: collapse;
+}
+.TopBanner {
+	width: 100%; height: 119px;
+}
+.Top_01 {
+	width: 100%; height: 11px; background-image: url("../WebImages/Top_01bg.jpg");
+}
+.Top_02 {
+	width: 100%; height: 27px; background-image: url("../WebImages/Top_02bg.jpg");
+}
+.Top02-03 {
+	width: 100%; height: 7px; background-image: url("../WebImages/Top02-03.jpg");
+}
+.Top_03 {
+	width: 100%; height: 26px; background-image: url("../WebImages/top_03bg.jpg");
+}
+.Top_04 {
+	width: 100%; height: 4px; background-image: url("../WebImages/top_04bg.jpg");
+}
+.xxgk {
+	background-position: left bottom; width: 383px; height: 189px; background-image: url("../WebImages/zwgk_bg.jpg"); background-repeat: no-repeat; background-color: white;
+}
+.xxgk_01 {
+	height: 25px; text-align: right; padding-right: 15px; background-image: url("../WebImages/xxgk_01.jpg"); background-repeat: no-repeat;
+}
+.xxgk_02 {
+	height: 28px; text-align: right; color: rgb(177, 104, 36); padding-right: 15px; background-image: url("../WebImages/xxgk_02.jpg"); background-repeat: no-repeat;
+}
+.XXgkText td {
+	color: rgb(154, 57, 19);
+}
+.zwdt_01 {
+	height: 25px; background-image: url("../WebImages/zwdt_01.jpg"); background-repeat: no-repeat;
+}
+.zwdt {
+	background-position: left bottom; width: 370px; height: 189px; background-image: url("../WebImages/zwdt_bg.jpg"); background-repeat: no-repeat; background-color: white;
+}
+.Search {
+	width: 98%; height: 25px; background-color: rgb(253, 250, 226);
+}
+.Left_04bg {
+	background-position: left bottom; background-image: url("../WebImages/Left_04_bg.jpg"); background-attachment: fixed; background-repeat: no-repeat;
+}
+.Right_02bg {
+	background-position: right bottom; background-image: url("../WebImages/Right_02_bg.jpg"); background-repeat: no-repeat;
+}
+.BT {
+	width: 100%; height: 90px; text-align: center; line-height: 30px; padding-top: 10px; vertical-align: bottom; background-image: url("../WebImages/bt.jpg");
+}
+.TdText {
+	color: rgb(154, 57, 19); font-weight: bold;
+}
+.Xline {
+	height: 3px; background-image: url("../WebImages/xline.gif"); background-repeat: repeat-x;
+}
+.Xline2 {
+	height: 3px; background-image: url("../WebImages/xline2.jpg"); background-repeat: repeat-x;
+}
+.Xline3 {
+	height: 5px; background-image: url("../WebImages/xline3.jpg"); background-repeat: repeat-x;
+}
+.Yline {
+	background-image: url("../WebImages/yline.gif"); background-repeat: repeat-y;
+}
+.Qzzx {
+	color: rgb(222, 115, 29); font-weight: bold;
+}
+.Inputtxt {
+	border: 1px solid rgb(136, 136, 136); width: 100%; float: none; background-color: transparent;
+}
+.Inputtxt3 {
+	border: 1px solid rgb(136, 136, 136); float: none; background-color: transparent;
+}
+.Inputtxtsearch {
+	border: 1px solid rgb(130, 130, 132); width: 100px; height: 20px; float: none; background-color: rgb(255, 255, 255);
+}
+.Inputtxt2 {
+	border: 1px solid rgb(130, 130, 132); width: 150px; height: 204px; float: none; background-color: rgb(255, 255, 255);
+}
+.Inputtxt1 {
+	border: 1px solid rgb(208, 208, 208); float: none; background-color: rgb(255, 255, 255);
+}
+.SearchBtn {
+	border: 0px solid rgb(255, 178, 109); color: rgb(154, 83, 27); font-size: 9pt; font-weight: bold; float: none; background-color: transparent;
+}
+.DropMenu_01 {
+	width: 91px; height: 10px; background-image: url("../WebImages/DropMenu_01.gif");
+}
+.DropMenu_bg {
+	width: 91px; background-image: url("../WebImages/DropMenu_bg.gif");
+}
+.DropMenu_02 {
+	width: 91px; height: 11px; background-image: url("../WebImages/DropMenu_02.gif");
+}
+.HeadNewsPic {
+	border: 1px solid rgb(136, 136, 136);
+}
+.HeadNewsPic2 {
+	border: 0px solid rgb(136, 136, 136);
+}
+.PicScrollPic {
+	border: 5px solid rgb(238, 238, 238); margin-top: 3px; margin-left: 5px;
+}
+.MiddleBg {
+	background-position: right bottom; background-image: url("../WebImages/Middle_Bg.jpg"); background-repeat: no-repeat;
+}
+.MiddleBgBig {
+	background-position: right bottom; background-image: url("../WebImages/middle_bgBig.jpg"); background-repeat: no-repeat;
+}
+.RightBottomBg {
+	background-position: right bottom; background-image: url("../WebImages/RightBottomBg.jpg"); background-repeat: no-repeat;
+}
+.Location {
+	color: rgb(171, 112, 61);
+}
+.TitleBg {
+	width: 100%; height: 32px; color: rgb(158, 87, 21); padding-top: 12px; padding-left: 17px; font-weight: bold; vertical-align: middle; background-image: url("../WebImages/titlebg.jpg"); background-repeat: no-repeat;
+}
+.TitleBgCenter {
+	width: 100%; height: 32px; color: rgb(158, 87, 21); padding-top: 8px; padding-left: 30px; font-family: ????; font-size: 15px; font-style: normal; font-weight: bold; vertical-align: middle; background-image: url("../WebImages/titlebg.jpg"); background-repeat: no-repeat;
+}
+.ConsultTitle {
+	color: rgb(255, 84, 0); padding-top: 8px; font-weight: bold; vertical-align: middle; background-image: url("../WebImages/location.gif");
+}
+.LeftBg {
+	width: 179px; height: 492px; background-image: url("../WebImages/LeftBg_TB.jpg"); background-repeat: no-repeat;
+}
+.BtnPost {
+	border: 0px solid currentColor; width: 45px; height: 21px; color: red; padding-top: 3px; float: none; background-image: url("../webimages/btnPost.jpg"); background-color: transparent;
+}
+.LocationBg {
+	background-image: url("../webimages/LocationBg.jpg");
+}
+.Btnbg {
+	border: 0px solid rgb(255, 178, 109); width: 44px; height: 18px; color: rgb(0, 0, 0); vertical-align: middle; float: none; background-image: url("../webimages/btn_bg.gif"); background-color: transparent;
+}
+.Btnbg1 {
+	border: 0px solid rgb(255, 178, 109); width: 51px; height: 19px; text-align: center; color: rgb(0, 0, 0); padding-top: 3px; vertical-align: middle; float: none; background-image: url("../webimages/btn_bg1.gif"); background-color: transparent;
+}
+.BoxLogo {
+	border: 0px solid rgb(255, 178, 109); width: 332px; height: 40px; padding-top: 15px; padding-left: 80px; font-weight: bold; background-image: url("../webimages/boxLogo.jpg");
+}
+.TableSpecial {
+	border: 1px solid rgb(208, 208, 208); background-color: rgb(255, 255, 255);
+}
+.TableSpecial td {
+	border: 1px solid rgb(208, 208, 208); background-color: rgb(255, 255, 255);
+}
+.TableSpecial1 {
+	border: 1px solid rgb(202, 201, 201); color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.TableSpecial1 td {
+	border: 1px solid rgb(202, 201, 201); color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.leftmenu {
+	width: 168px; height: 27px; padding-left: 55px; background-image: url("../webimages/MenuBg.jpg"); background-repeat: no-repeat;
+}
+.LeftMenuSub {
+	width: 168px; height: 26px; padding-left: 65px; background-image: url("../webimages/zy_03.jpg"); background-repeat: no-repeat;
+}
+.SubtitleBg {
+	width: 245px; height: 40px; color: white; padding-top: 10px; padding-left: 90px; font-size: 15px; font-weight: bold; word-spacing: 5px; background-image: url("../webimages/SubtitleBg.jpg"); background-repeat: no-repeat;
+}
+.TvTd {
+	height: 15px; padding-right: 20px; padding-left: 20px;
+}
+.TvTd td {
+	height: 20px;
+}
+.QzzxTD {
+	padding: 3px;
+}
+.title_01 {
+	padding-left: 20px; font-family: ????_GB2312; font-size: 16pt; font-weight: 400;
+}
+.title_02 {
+	padding-left: 60px; font-family: ????; font-size: 15px; font-weight: bold;
+}
+.Div_01_01 {
+	width: 12px; height: 13px; background-image: url("../WebImages/Div_01_01.jpg"); background-repeat: no-repeat;
+}
+.Div_01_02 {
+	border: 0px solid rgb(177, 104, 36); width: 13px; height: 13px; background-image: url("../WebImages/Div_01_02.jpg"); background-repeat: no-repeat;
+}
+.Div_01_bg {
+	height: 13px; background-image: url("../WebImages/Div_01_bg.jpg"); background-repeat: repeat-x;
+}
+.Div_02_01 {
+	width: 12px; background-image: url("../WebImages/Div_02_01.jpg"); background-repeat: repeat-y;
+}
+.Div_02_02 {
+	width: 12px; background-image: url("../WebImages/Div_02_02.jpg"); background-repeat: repeat-y;
+}
+.Div_03_01 {
+	width: 12px; height: 13px; background-image: url("../WebImages/Div_03_01.jpg"); background-repeat: no-repeat;
+}
+.Div_03_02 {
+	width: 13px; height: 13px; background-image: url("../WebImages/Div_03_02.jpg"); background-repeat: no-repeat;
+}
+.Div_03_bg {
+	height: 13px; background-image: url("../WebImages/Div_03_bg.jpg"); background-repeat: repeat-x;
+}
+.btntime {
+	border: 0px solid currentColor; width: 22px; height: 24px; float: none; background-image: url("../backend/images/time.gif"); background-color: transparent;
+}
+.QzzxState {
+	width: 100%; height: 30px; color: red; padding-top: 10px; padding-left: 10px; font-style: normal; vertical-align: middle;
+}
+.Qzzxzhuchi {
+	padding: 3px; color: red;
+}
+.PicDiv {
+	border: rgb(255, 255, 255); padding-right: 5px; padding-bottom: 5px; padding-left: 5px;
+}
+.btn_dl {
+	border: 0px solid currentColor; width: 56px; height: 21px; background-image: url("../webImages/denglu.jpg"); background-color: transparent;
+}
+.btn_cz {
+	border: 0px solid currentColor; width: 56px; height: 21px; background-image: url("../webImages/chongzhi.jpg"); background-color: transparent;
+}
+.btn_cz1 {
+	border: 0px solid currentColor; width: 52px; height: 21px; background-image: url("../Images/btn_cz1.gif"); background-color: transparent;
+}
+.btn_tp {
+	border: 0px solid currentColor; width: 44px; height: 18px; background-image: url("../webimages/tp.gif");
+}
+.btn_jg {
+	border: 0px solid currentColor; width: 44px; height: 18px; background-image: url("../webimages/jg.gif");
+}
+.btn_ss {
+	border: 0px solid currentColor; width: 56px; height: 21px; background-image: url("../webImages/btn_ss.jpg"); background-color: transparent;
+}
+.Introduce {
+	line-height: 25px; padding-right: 5px; padding-left: 5px; font-family: ????; font-size: 9pt;
+}
+.QuestionGroup {
+	height: 35px; color: rgb(12, 147, 228); font-size: 15px; font-weight: bold;
+}
+.QuestionSubject {
+	height: 30px; padding-left: 20px; font-weight: bold; border-top-color: rgb(85, 167, 219); border-top-width: 1px; border-top-style: dotted;
+}
+.QuestionOption {
+	line-height: 35px; padding-bottom: 10px; padding-left: 40px;
+}
+#left {
+	width: 154px; height: 420px; font-weight: bold; float: left; background-color: rgb(231, 238, 250);
+}
+#content1 {
+	width: 700px; height: 580px; border-bottom-color: rgb(190, 207, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#left1 {
+	border: 1px solid rgb(217, 217, 217); width: 1%; height: 420px; float: left; background-color: rgb(231, 238, 250);
+}
+#right {
+	width: 847px; height: 420px; text-align: left; float: right;
+}
+#footer {
+	text-align: center; clear: both; font-size: small; border-top-color: rgb(222, 240, 250); border-top-width: 1px; border-top-style: solid;
+}
+.parent {
+	background: rgb(231, 238, 250); border-width: 1px; border-style: solid; border-color: rgb(222, 240, 250) rgb(222, 240, 250) rgb(204, 204, 204); font: bold 15px/25px Verdana, Arial, Helvetica, sans-serif; padding: 0px 6px; height: auto !important; color: rgb(0, 0, 204); text-decoration: none; display: block; font-size-adjust: none; font-stretch: normal;
+}
+#left h5 {
+	margin: 11px 0px 0px 8px; color: rgb(0, 0, 204); font-size: 16px; font-weight: bold;
+}
+#left1 h5 {
+	margin: 11px 0px 0px 8px; color: rgb(0, 0, 204); font-size: 16px; font-weight: bold;
+}
+.child1 {
+	background: rgb(222, 240, 250); border-width: 1px; border-style: dotted; border-color: rgb(222, 240, 250) rgb(222, 240, 250) rgb(204, 204, 204); font: bold 13px/23px Verdana, Arial, Helvetica, sans-serif; padding: 0px 6px; height: auto !important; color: rgb(102, 102, 102); text-indent: 1em; text-decoration: none; display: block; font-size-adjust: none; font-stretch: normal;
+}
+.child a:hover {
+	background: rgb(153, 0, 0); color: rgb(255, 255, 255);
+}
