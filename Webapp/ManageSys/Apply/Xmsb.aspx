@@ -26,15 +26,20 @@
                     DataKeyNames="PrId" ForeColor="#333333" Font-Size="15px">
                     <RowStyle BackColor="#EFF3FB" />
                     <Columns>
-                        <asp:BoundField DataField="PrId" HeaderText="ID" />
-                        <asp:TemplateField HeaderText="编号">
-                            <ItemTemplate>
+                        <asp:BoundField DataField="PrId" HeaderText="ID" ItemStyle-HorizontalAlign="Center"  />
+                        <asp:TemplateField HeaderText="编号" ItemStyle-HorizontalAlign="Center"  >
+                            <ItemTemplate >
                                 <asp:Label ID="Label2" runat="server" Text="<%# Container.DataItemIndex + 1%>" ></asp:Label>
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:BoundField DataField="PrName" HeaderText="项目名称" />
-                        <asp:BoundField DataField="PrStatus" HeaderText="状态" />
-                        <asp:TemplateField HeaderText="操作">
+                        <asp:TemplateField HeaderText="项目名称"  ItemStyle-HorizontalAlign="Center" >
+                            <ItemTemplate>
+                                <asp:LinkButton ID="LinkButton3" runat="server" CommandName ="SubmitPrName"
+                                 CommandArgument="<%# CType(Container, GridViewRow).RowIndex %>" ><%# Eval("PrName") %></asp:LinkButton>
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                        <asp:BoundField DataField="PrStatus" HeaderText="状态"  ItemStyle-HorizontalAlign="Center" />
+                        <asp:TemplateField HeaderText="操作"  ItemStyle-HorizontalAlign="Center"  >
                             <ItemTemplate >
                                 <asp:LinkButton ID="LinkButton1" runat="server" CommandName ="updateProject" CommandArgument="<%# CType(Container, GridViewRow).RowIndex %>" >修改</asp:LinkButton>
                                 <asp:LinkButton ID="LinkButton2" runat="server" CommandName ="deleteProject" CommandArgument="<%# CType(Container, GridViewRow).RowIndex %>"  OnClientClick ="return confirm('确定要删除吗？')">删除</asp:LinkButton>

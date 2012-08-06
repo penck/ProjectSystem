@@ -74,6 +74,10 @@ Partial Class ApplyUser_Xmsb
                 oProjectInfo.Delete("PrId=" & nPrId)
                 LogsOper.ShowInfotoWeb("删除成功！", upXmsbPage)
                 BindData()
+            ElseIf e.CommandName = "SubmitPrName" Then
+                System.Web.UI.ScriptManager.RegisterStartupScript(upXmsbPage, Me.GetType, "click", "javascript:window.top.open('" + _
+                                                                  String.Format("http://{0}:{1}{2}", Request.Url.Host, Request.Url.Port, _
+                                                                                Page.ResolveUrl("~/ManageSys/Check/ShowDetail.aspx")) + "?id=" & nPrId & "');", True)
             End If
         Catch ex As Exception
 
